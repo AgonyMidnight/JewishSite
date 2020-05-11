@@ -42,12 +42,28 @@ header div:last-child{
 }
 
 .ClassImage{
+    float: left;
     margin-left: 2%;
     width: 28%;
+    border: 3px mediumblue;
+    margin: 2%;
+    
 }
 
 .ClassText{
     font-family: 'Didact Gothic', sans-serif;
-   font-size: 20px;
-   color:  rgb(32, 32, 136);
+    font-size: 25px;
+    color:  rgb(32, 32, 136);
+    float: left;
+  
+    
+}
+
+.ImportantText{
+    text-align: center;
+    margin: 5%;
+    font-size: 2em;
+    color:  rgb(32, 32, 136);
+    font-family: 'Didact Gothic', sans-serif;
+
 }
