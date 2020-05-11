@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    background-color:rgb(217, 231, 250) ;
+    height: 100%;
+}
+header {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    border: 10px solid rgb(21, 21, 109);
+    color: ivory;
+    text-align: center;
+    background-color: rgb(14, 14, 211);
+    display: flex;
+    margin: 1%;
+    justify-content: space-between;
+    height: 16%;
+    align-items: center;
+}
+
+header div{
+    border: 2px solid rgb(32, 32, 136);
+    height: 100%;
+    margin-left: 2px;
+    flex-grow: 1;
+}
+
+header div:first-child{
+    width: 16%;
+    background-image: url(https://dizb-carnage.clan.su/_fr/2/7157470.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header div:last-child{
+    margin-right: 2%;
+}
+
+.ClassImage{
+    margin-left: 2%;
+    width: 28%;
+}
+
+.ClassText{
+    font-family: 'Didact Gothic', sans-serif;
+   font-size: 20px;
+   color:  rgb(32, 32, 136);
+}
